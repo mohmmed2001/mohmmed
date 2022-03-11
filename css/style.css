@@ -1,0 +1,313 @@
+:root{
+    --color-nav:#D7B357;
+    --color-font:#d2b059;
+}
+body{
+    height: 1000px;
+}
+/* STAR STYLE NAVBAR */
+.navbar{
+    background: linear-gradient(90deg, rgb(254, 247, 231) 0%, rgba(181,141,53,24%) 35%, rgba(176,136,48,24%) 100%);
+
+}
+.logo{
+    width: 40px;
+}
+.navbar .navbar-nav .nav-link {
+    color: black;
+    
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--color-font);
+}
+.navbar .navbar-toggler {
+    color: var(--color-font);
+    font-size: 18px;
+    border-color: var(--color-font);
+  }
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+  }
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--color-font);
+  }
+  /* END STYLE NAVBAR */
+ /* Section-one */
+ main{
+     overflow: hidden;
+ }
+ .section-one{
+     background-color: #F2ECDA;
+     height: 100vh ;
+
+
+ }
+ .imges{
+     position: relative;
+ }
+ .imges img{
+    
+ }
+ .imges .img-1{
+     width: 18%;
+     position: absolute;
+     top: 330px;
+     right: 20px;
+ }
+ .imges .img-2{
+     
+     width: 12%;
+     position: absolute;
+     top: 60px;
+     left: 260px;
+
+ }
+ .imges .img-3{
+     position: absolute;
+     top:160px;
+     left: 50px;
+     width: 15%;
+ }
+ .imges .img-4{
+     position: absolute;
+     top: 20px;
+     right:-100px;
+     width:40%;
+ }
+ .section-one .par{
+    position: absolute;
+    left: 360px;
+    top: 60px;
+    z-index: 1;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #d2b059;
+ }
+ .section-one .h-one{
+     position: absolute;
+     z-index: 1;
+     top: 160px;
+     left: 150px;
+     font-weight: 500;
+     font-size: 170px;
+     letter-spacing: 5px;
+
+ }
+ .section-one .par-2{
+    position: absolute;
+    top: 360px;
+    left: 280px;
+    font-size: 40px;
+    text-transform: uppercase;
+ }
+ .section-one .link-land{
+     position: absolute;
+     top: 440px;
+     left: 400px;
+ }
+ .section-one .link-land a{
+     color: #fff;
+     font-size: 15px;
+     background-color: #d2b059;
+     width: 180px;
+     padding: 0;
+     
+
+ }
+
+ .section-one .link-land a svg{
+     font-size: 20px;
+     position: relative;
+     top: 12px;
+     left:-20px;
+ }
+ .section-one span{
+     display: block;
+    font-weight: 500;
+ }
+ /* The Responsev section-one max-width: 1167px */
+ @media only screen and (max-width: 1167px) {
+     .section-one .h-one {
+      font-size: 120px;
+    }
+    .section-one .par{
+       left:30%;
+       width: 100%;
+
+     }   
+  }
+/* The Responsev section-one max-width: 1167px */
+@media only screen and (max-width: 950px) {
+    .imges .img-2{
+        left: 150px;
+    }
+    .section-one .par{
+        position: absolute;
+        left: 200px;       
+        font-size: 30px;
+     }
+     .section-one .h-one {
+        font-size: 80px;
+      }
+      .section-one .par-2{
+        position: absolute;
+        top: 270px;
+        left: 160px;
+        font-size: 27px;
+        text-transform: uppercase;
+     }
+     .section-one .link-land{
+        position: absolute;
+        top: 370px;
+        left: 180px;
+        display: flex;
+    }
+    .section-one .link-land a{
+        margin-right: 10px;
+    }
+    .imges .img-4{
+        position: absolute;
+        top: 20px;
+        right:-70px;
+        width:50%;
+    }
+  }
+
+/* The Responsev section-one max-width: 532px */
+@media only screen and (max-width: 600px) {
+    .imges .img-1{
+        width: 22%;
+        position: absolute;
+        top: 280px;
+        right: 32%;
+    }
+    .imges .img-2{
+        left: 60px;
+        width: 100px;
+    }
+    .imges .img-3{
+        left: 10px;
+        width: 18%;
+    }
+    .section-one .par{
+        position: absolute;
+        left: 100px;       
+        font-size: 20px;
+        font-weight: 500;
+     }
+     .section-one .h-one {
+        font-size: 55px;
+        left: 100px;
+      }
+      .section-one .par-2{
+        top: 240px;
+        left: 100px;
+        font-size: 20px;
+     }
+     .section-one .link-land{
+        position: absolute;
+        top: 370px;
+        left: 180px;
+        display:inline-block;
+    }
+    .section-one .link-land a{
+        margin-top: 10px;
+    }
+    .imges .img-4{
+        position: absolute;
+        top: 40px;
+        right:-70px;
+        width:60%;
+    }
+  }
+
+  /* START section-tow  */
+  .section-tow{
+      height: 100vh;
+      position: relative;
+
+  }
+  .section-tow .imge-one{
+      padding-top: 50px;
+    width: 80px;
+  }
+  .section-tow .prar{
+      position: absolute;
+      top:80px ;
+      text-transform: uppercase;
+      width: 330px;
+      font-weight: 600;
+      font-size: 24px;
+      margin-left: 50px;
+      }
+  .section-tow .imge-tow{
+  width: 100px;
+  position: absolute;
+  top: 140px;
+  left: 135px;
+}
+.section-tow .prar-tow{
+    position: absolute;
+    width: 500px;
+    top: 280px;
+    z-index: 1;
+}
+.section-tow .imge-three{
+    width: 700px;
+    position: absolute;
+    left: 500px;
+    bottom:10px ;
+    
+}
+  /* END section-tow */
+
+  /* Start Section-three */
+     .section-three{
+         height: 800px;
+         position: relative;
+         background-color: #F2ECDA;
+     }
+     .section-three .img-section{
+         padding-top: 50px;
+         width: 90px;
+     }
+     .section-three .parr-one{
+         text-transform: uppercase;
+         font-size: 22px;
+         position: absolute;
+         left:170px;
+         top:79px;
+         font-weight: 600;
+     }
+     .section-three .box-text{
+         position: absolute;
+         z-index: 1;
+         padding-top: 40px;
+     }
+     .section-three .box-text h5{
+         color: #d2b059;
+         padding: auto;
+
+     }
+     .section-three .par-box{
+         width: 480px;
+         font-size: 18px;
+     }
+     .section-three .img-section-three{
+         position: relative;
+         left: 450px;
+         top: 55px;
+        
+     }
+    
+
+  /* End Section0three */
+
+  /* rResponsev */
+  @media only screen and (max-width: 518px){
+    .section-three .parr-one{
+        left: 60px;
+    }
+
+  }
